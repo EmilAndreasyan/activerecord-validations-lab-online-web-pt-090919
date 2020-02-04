@@ -10,3 +10,4 @@ class Post < ActiveRecord::Base
     errors.add(:clickbait, "That is not a clickbait worthy title. Try again.")
   end
 end
+end
