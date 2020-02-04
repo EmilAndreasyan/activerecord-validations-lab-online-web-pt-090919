@@ -6,5 +6,5 @@ class Post < ActiveRecord::Base
   validate :clickbait
   
   def clickbait
-    if !title.nil? && (title)
+    if !title.nil? && (!title.include())
 end
